@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3FA380F02ED6D509004BA03C /* .gitignore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA380EF2ED6D501004BA03C /* .gitignore.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3FA380672ED6CFAC004BA03C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		3FA380592ED6CFAB004BA03C /* GalaxyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GalaxyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA380662ED6CFAC004BA03C /* GalaxyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GalaxyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA380702ED6CFAC004BA03C /* GalaxyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GalaxyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA380EF2ED6D501004BA03C /* .gitignore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = .gitignore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		3FA380502ED6CFAB004BA03C = {
 			isa = PBXGroup;
 			children = (
+				3FA380EF2ED6D501004BA03C /* .gitignore.swift */,
 				3FA3805B2ED6CFAB004BA03C /* GalaxyApp */,
 				3FA380692ED6CFAC004BA03C /* GalaxyAppTests */,
 				3FA380732ED6CFAC004BA03C /* GalaxyAppUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA380F02ED6D509004BA03C /* .gitignore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

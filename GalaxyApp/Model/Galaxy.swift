@@ -1,7 +1,7 @@
 import Foundation
 
 struct Galaxy: Identifiable, Codable {
-    let id: Int
+    let id: UUID
     let name: String
     let size: String?
     let mass: String?

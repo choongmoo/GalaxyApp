@@ -3,9 +3,8 @@ import Foundation
 class GalaxyStore: ObservableObject {
     @Published var galaxies: [Galaxy] = [] // UI에 보여줄 은하 목록
     
-    // ⚠️ 여기에 아까 찾은 정보를 붙여넣으세요!
-    let projectURL = "https://your-project-url.supabase.co" // 'https://' 포함 확인
-    let apiKey = "eyJhbG..." // eyJ로 시작하는 아주 긴 anon 키
+    let projectURL = "https://rivjpilpvmxiypbqgxdx.supabase.co"
+    let apiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJpdmpwaWxwdm14aXlwYnFneGR4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE1NDcwOTksImV4cCI6MjA3NzEyMzA5OX0.Kzi0o9MZUB_mjbJcboaon7jj5srjHE_c7yDrNjhXcPM"
     
     func fetchGalaxies() {
         // 1. URL 생성 (테이블 이름: galaxies, 모든 컬럼 선택: select=*)
